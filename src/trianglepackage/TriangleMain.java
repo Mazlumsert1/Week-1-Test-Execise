@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class TriangleMain {
 
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
         System.out.println("Tast info:");
         
@@ -21,8 +21,12 @@ public class TriangleMain {
         Triangle t = new Triangle(a,b,c);
         TriangleController tc = new TriangleController();
         
-        tc.checkTriangle(t);
-        
-    }
+        tc.checkTriangle2(t);
+
     
+        
+        
+    
+    }
+
 }
